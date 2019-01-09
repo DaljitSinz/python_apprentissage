@@ -1,0 +1,26 @@
+a=20
+print(a)
+
+x,y,z=45,12,34
+print(x,y,z)
+
+print(type(a))
+<class 'int'>
+
+in pyhton2
+a=raw_input(Please ent the value)
+
+b=input(Please enter)
+
+
+
+
+Changing the Variable category
+String <> Integer
+a='23'
+type(a)
+<Class 'str'>
+
+a=int(a)
+type(a)
+<class 'int'>
