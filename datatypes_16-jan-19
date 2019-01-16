@@ -1,0 +1,102 @@
+Int
+
+a=10
+b=20
+
+
+Arthmetic Operators
+
+
++
+addition
+
+
+-
+Substraction
+
+
+*
+Multiplication
+
+
+/ 
+Divide In Float Value
+
+
+%
+Provides only Remider 
+
+
+// 
+Divide In Real Value 
+
+
+**
+Power a**b
+a has power of b
+4**2 = 16
+
+
+String
+
+Concatination
++
+
+a='rock'
+b='start'
+
+a+b
+rockstar
+
+
+Interger + String
+*
+
+a='rock'
+b='5'
+>>> a*b
+'rockrockrockrockrock'
+>>> type(a)
+<class 'str'>
+>>> c=a*b
+
+
+>>> len(c)
+20
+
+
+
+a='asdfghjkl'
+>>> a='asdfghjkl'
+>>>Variable to Index Value
+Variable[Index]
+>>> a[2]
+'d'
+>>> a[-2]
+'k'
+>>>
+>>>Value to Variable Index
+variable.index('Value')
+
+>>> a.index('s')
+1
+>>> a.index('d')
+2
+>>>
+>>> a[2:3]
+'d'
+>>> a[2:-2]
+'dfghj'
+>>> a[2:]
+'dfghjkl'
+>>> a[:4]
+'asdf'
+
+
+Practical:
+Please Enter the First Name :
+a=
+Please Enter the last name :
+b=
+
+c=a[:3]+b[:3]
