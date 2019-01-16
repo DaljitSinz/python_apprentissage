@@ -66,6 +66,8 @@ b='5'
 
 
 
+
+*****************************Slicing*****************************************
 a='asdfghjkl'
 >>> a='asdfghjkl'
 >>>Variable to Index Value
@@ -100,3 +102,34 @@ Please Enter the last name :
 b=
 
 c=a[:3]+b[:3]
+
+
+
+a=input('Please Enter the First Name :')
+b=input('Please Enter the last name :')
+c=a[:3]+b[:3]
+print('Your Password is :',c)
+print('Another WAY',a[:3]+b[:3] )
+
+
+
+
+*****************************************************String Functions***************************************************
+###################>>>help(str.count)####################################
+
+Capitalized
+Make first work in Caps
+
+center
+count
+a='Daljit Singh'
+a.count()
+
+find
+a.find('s')
+>>> 
+
+Format
+a
+daljit singh
+print(')
