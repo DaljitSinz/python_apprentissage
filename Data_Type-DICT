@@ -38,3 +38,84 @@ Daljit
 
 
 
+
+
+>>> student['class']='10th'
+>>>
+>>> student
+{'age': 30, 'name': 'Daljit', 'rollno': '21', 'class': '10th'}
+>>> student['class']='12th'
+>>>
+>>>
+>>>
+>>>
+>>> student
+{'age': 30, 'name': 'Daljit', 'rollno': '21', 'class': '12th'}
+>>>
+>>>
+>>>
+>>>
+>>> student.pop()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: pop expected at least 1 arguments, got 0
+>>> student.pop(age)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'age' is not defined
+>>> student.pop('age')
+30
+>>> student
+{'name': 'Daljit', 'rollno': '21', 'class': '12th'}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Task
+:
+dictionary:
+keys
+{int,string,list1,tuple,dict}
+
+
+list1 (int, tuple, list,dict)
+inlist ()
+
+
+
+
+
+category['string':'Daljit','integer':'20','list':'["hello","21",12,student={'name':'Daljit','age':30,'rollno':'21'}]','tupple':("Tupple","23",45)]
+
+
+
+
+
+String='', ""
+Tupple =()
+List[]
+Dict{}
+
+
+category{'integer': '20', 'list': ['hello', '21', 12, {'age': 30, 'lisst': ['okay', 37, '56', ('we', 23)], 'Check': 'aDaljit', 'rollno': '21'}], 'string': 'Daljit'}
+
+Fetch
+print(category['list'])[3]['lisst'][3][1]
+23
+
+
+Task>>>
+DICT [List:wef,efesa,sd,c>>{DICT, >   (Tupple, list++)}
+Add something in List
+Delete on Value in Tuple
+List has a Sting will replace wit *
+
