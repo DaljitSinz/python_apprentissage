@@ -2,3 +2,39 @@ Dictionary
 
 {}
 
+student={'name':'Daljit','age':30,'rollno':'21'}
+print student
+
+
+>>> print(student)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'student' is not defined
+>>> student={'name':'Daljit','age':30,'rollno':'21'}
+>>> print(student)
+{'age': 30, 'name': 'Daljit', 'rollno': '21'}
+>>> print student(age)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'age' is not defined
+>>> print (student[age])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'age' is not defined
+>>> print(student[age])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'age' is not defined
+>>> print(student['age'])
+30
+>>> print(student['name'])
+Daljit
+>>> print(vars)
+<built-in function vars>
+>>> print(vars())
+{'__builtins__': <module '__builtin__' (built-in)>, '__name__': '__main__', '__doc__': None, 'student': {'age': 30, 'name': 'Daljit', 'rollno': '21'}, '__package__': None}
+>>>
+
+
+
+
