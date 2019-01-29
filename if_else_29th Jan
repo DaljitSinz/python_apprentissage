@@ -1,0 +1,7 @@
+If Else Condition
+
+a=10
+b=23
+if a<b:
+  print ('A is less than B')
+print ('End of the Program')
