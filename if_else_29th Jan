@@ -5,3 +5,23 @@ b=23
 if a<b:
   print ('A is less than B')
 print ('End of the Program')
+
+
+
+a=56
+b=562
+if a!=b:
+  print ('A Not Equal to B')
+print ('End of the Program')
+
+
+elif a>b:
+	print ('A i  Smaller')
+elif a==b:
+	print ('A i  Equal')
+elif a>=b:
+	print ('A i  Smaller')
+elif a<=b:
+	print ('A i  Smaller')
+else:
+	print ('A or B are not valid integers')
