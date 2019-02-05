@@ -1,0 +1,56 @@
+For Loop
+
+>>> range(1,10)
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+>>> range(1,10+1)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+
+
+a = iter([1,2,3,4,45,5])
+>>> a = iter([1,2,3,4,45,5])
+>>> a.next()
+1
+>>> a.next()
+2
+>>> a.next()
+3
+>>> a.next()
+4
+>>> a.next()
+45
+>>> a.next()
+5
+>>> a.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>>
+
+
+a = range(1,7)
+
+for num in a:
+	print num    // if we put "," in end it will pint in line with comma sperator
+  
+ C:\Python27>forloop.py
+1
+2
+3
+4
+5
+6
+
+a = range(1,7)
+
+for num in a:
+	if num == 2:
+    print num +2
+  else 
+    print num
+    
+    
+
+
