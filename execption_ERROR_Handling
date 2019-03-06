@@ -1,0 +1,24 @@
+Execption Handling
+
+a=input('Enter Number')
+a=input('Enter Number')
+
+try:
+  print(a/b)
+ 
+except ZeroDivisionError:
+   print('Can not divided by Zero')
+   print('Error Handled')
+
+except ValueError:
+   print('Can not integer by Zero')
+   print('Error Handled')
+
+except:
+   print('Error Handled')
+
+print('end of Program')
+
+
+
+
