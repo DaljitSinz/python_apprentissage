@@ -1,1 +1,15 @@
 Functions
+Reuse the same functionality
+
+Denoted by ()
+
+Pre defined 
+a.append()
+print()
+
+
+def sub():
+  a=10
+  b=20
+  print(a-b)
+sub()
